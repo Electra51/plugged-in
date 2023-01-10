@@ -1,0 +1,42 @@
+.container {
+    height: 220px;
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 30px;
+    color: rgb(2, 2, 37);
+    font-weight: 500;
+}
+
+.cardL {
+    flex: 2;
+}
+
+.cardS {
+    flex: 1;
+}
+
+.cardItem {
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.cardItemIcon {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .cardItem {
+        text-align: center;
+    }
+}

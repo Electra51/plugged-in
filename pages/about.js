@@ -9,7 +9,7 @@ const about = () => {
                 <meta name="description" content="About page of Online meeting recording application" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <h1> about us and our service</h1>
+            <h1> about us</h1>
         </div>
     );
 };
